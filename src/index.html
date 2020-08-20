@@ -7,6 +7,7 @@
     <title>China</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -249,13 +250,166 @@
     </section>
     <section class="agent agent_manager">
         <div class="container">
-            <img src="img/icons/icon_mens5.png" alt="mans">
+            <img src="img/icons/icons__mans-alips.png" alt="mans">
             <div class="box_white">Менеджеры компании</div>
             <div class="box__subtitle_white">Подберут для Вас оптимальную схему грузоперевозки.
                 Проведут контроль закупок, организуют прямые<br>поставки от завода изготовителя.
             </div>
         </div>
     </section>
-    
+    <section class="scheme">
+        <div class="container">
+            <div class="box__text">Схема работы с нами</div>
+            <div class="scheme__container">
+                
+                <div class="scheme__item">
+                    <img src="img/icons/icon_scheme1.png" alt="1s">
+                    <div class="scheme__title">Заявка</div>
+                    <div class="scheme__subtitle">
+                        Вы оставляете заявку на нашем сайте<br>или звоните нам
+                    </div>
+                </div>
+                <div class="scheme__item">
+                    <img src="img/icons/icon_scheme2.png" alt="2s">
+                    <div class="scheme__title">Аналитика доставки</div>
+                    <div class="scheme__subtitle">
+                        Мы просчитываем варианты доставки<br>Вашего груза
+                    </div>
+                </div>
+                <div class="scheme__item">
+                    <img src="img/icons/icon_scheme3.png" alt="3s">
+                    <div class="scheme__title">Договор</div>
+                    <div class="scheme__subtitle">
+                        Заключаем с Вами договор о поставке<br>груза из Китая
+                    </div>
+                </div>
+                <div class="scheme__item">
+                    <img src="img/icons/icon_scheme4.png" alt="4s">
+                    <div class="scheme__title">Доставка на наш склад</div>
+                    <div class="scheme__subtitle">
+                        Связываемся с Вашим поставщиком в<br>Китае и договариваемся о доставке<br>груза на наш склад 
+                    </div>
+                </div>
+                <div class="scheme__item">
+                    <img src="img/icons/icon_scheme5.png" alt="5s">
+                    <div class="scheme__title">Проверка груза</div>
+                    <div class="scheme__subtitle">
+                        Мы проверяем, собираем и<br>упаковываем перед отправкой Ваш<br>груз на своём складе
+                    </div>
+                </div>
+                <div class="scheme__item">
+                    <img src="img/icons/icon_scheme6.png" alt="6s">
+                    <div class="scheme__title">Доставка груза</div>
+                    <div class="scheme__subtitle">
+                        Мы перевозим ваш груз до места<br>назначения и производим таможенную<br>очистку
+                    </div>
+                </div>
+                <div class="scheme__item">
+                    <img src="img/icons/icon_scheme7.png" alt="7s">
+                    <div class="scheme__title">Оплата</div>
+                    <div class="scheme__subtitle">
+                        Оплачиваете доставку груза при<br>получении 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="box__text">отзывы наших клиентов</div>
+            <div class="band__red"></div>
+            <div class="box__subtitle">Мы всегда стараемся помочь клиентам, 
+                что бы они обращались к нам снова
+            </div>
+            <div class="reviews__carousel">
+                <div class="reviews__carousel_inner">
+                    <div class="reviews__carousel_item">
+                        <img src="img/reviews_img1.png" alt="slide">
+                        <div class="reviews__carousel_item_title">
+                            Анисимова Ольга
+                        </div>
+                        <div class="reviews__carousel_item_subtitle">
+                            Хочу рассказать о компании Global Opt. Самое главное что меня радует, 
+                            это быстрый поиск<br>и анализ определенного товара. Доставляла через 
+                            компанию уже много раз, от расходных<br>материалов для отеля, ло дольших 
+                            партий детской одежды. Буду продолжать пользоваться<br> 
+                            услугами даной компании
+                        </div>
+                    </div>
+                    <div class="reviews__carousel_item">
+                        <img src="img/reviews_img1.png" alt="slide">
+                        <div class="reviews__carousel_item_title">
+                            Анисимова Ольга
+                        </div>
+                        <div class="reviews__carousel_item_subtitle">
+                            Хочу рассказать о компании Global Opt. Самое главное что меня радует, 
+                            это быстрый поиск<br>и анализ определенного товара. Доставляла через 
+                            компанию уже много раз, от расходных<br>материалов для отеля, ло дольших 
+                            партий детской одежды. Буду продолжать пользоваться<br> 
+                            услугами даной компании
+                        </div>
+                    </div>
+  
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="questions">
+        <div class="container">
+            <div class="questions__container"> 
+                <div class="questions__header">
+                    <h2 class="questions__header_title">Остались вопросы?</h2>
+                    <h3 class="questions__header_subtitle">Напишите нам!</h3> 
+                </div>
+                    <form id="questions-form" class="questions-form" action="#">
+                        <div class="questions-form_flex">
+                            <input name="name" placeholder="Ваше имя" type="text">
+                            <input name="phone" placeholder="Ваш телефон">
+                            <input name="email" placeholder="Ваш E-mail" type="email">
+                            <textarea name="text" id="#"></textarea>
+                        </div>
+                            <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
+                    </form>
+            </div>
+               
+        </div>
+           
+        
+
+    </section>
+    <section class="maps">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3f571f0fc5d2b9899ac5ae7d0fab2085a9219d84cdc4ac4d6e542f312b8c316c&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false">
+            </script>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__logo">
+                <img src="img/logo_footer.png" alt="footer-logo">
+            </div>
+            <div class="footer__title">
+                Global Opt - Доставка грузов из Китая в Россию и СНГ
+            </div>
+            <div class="footer__block">
+                <div class="footer__quest">Есть вопросы?</div>
+                <a class="footer__contacts" href="tel:89653241771" class="header__phone"> +7 (965) 324-17-71</a>
+            </div>
+            <button class="footer__button">Перезвоните мне</button>
+            <hr>
+            <ul class="footer__menu">
+                <li class="footer__menu_item"><a href="#" class="header__menu_link">@dimaivanash 2020</a></li>
+                <li class="footer__menu_item"><a href="#" class="header__menu_link"> Политика конфидециальности</a></li>
+                <li class="footer__menu_item"><a href="#" class="header__menu_link">создание сайта @dimaivanash</a></li>
+            </ul>
+
+            
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
